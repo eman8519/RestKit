@@ -22,7 +22,7 @@
 #import "RKMapping.h"
 
 #if __has_include(<RKValueTransformers/RKValueTransformers.h>)
-#   import <RKValueTransformers/RKValueTransformers.h>
+#   import RKValueTransformers.h
 #else
 #   import "RKValueTransformers.h"
 #endif
